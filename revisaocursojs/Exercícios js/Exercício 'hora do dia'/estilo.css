@@ -20,6 +20,10 @@ footer{
     text-align: center;
     font-style: italic;
 }
+div{
+    text-align: center;
+    padding: 8px;
+}
 #imagem {
     text-align: center;
     max-width: 400px;
