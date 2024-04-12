@@ -10,7 +10,10 @@ function contar() {
         for (var i = inicio; i <= fim; i += passo) {
             res.innerHTML += `\u{1F449} ${i} `;
         }
-    } else {
+    } else if(inicio > fim && passo > 0){
+        for (var c = inicio; c >= fim; c -= passo) {
+            res.innerHTML += `\u{1F449} ${c} `;
+    }} else {
         res.innerHTML = 'Valores inválidos! Por favor, verifique.';
     }
 }
