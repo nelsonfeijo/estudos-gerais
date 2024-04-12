@@ -16,4 +16,5 @@ function contar() {
     }} else {
         res.innerHTML = 'Valores inválidos! Por favor, verifique.';
     }
+    res.innerHTML += '\u{1F3C1}'
 }
