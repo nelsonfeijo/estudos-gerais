@@ -10,5 +10,4 @@ function tabuada() {
             res.innerHTML += `${numero} X ${c} = ${nume} <br>`;
     }
     }
-    res.innerHTML += '\u{1F3C1}'
 }
